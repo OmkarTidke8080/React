@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refresher</title>
+</head>
+<body>
+    <script>
+        "use strict";
+        // let a  = 34;
+        // let b  = "34";
+        // const a =45;
+        let a = 45;
+        a = 453 + 4;
+        console.log(a);
+        // Numbers 
+        // Objects
+        // Boolean true or false
+        // String
+        // undefined
+        // null
+
+        function hello()
+        {
+            console.log("Hello world")
+        }
+
+        let b = {
+               r : 34,
+               m: 65,
+               func : function myfunc(number)
+               {
+                //  console.log("The number is : "+number)
+               }
+        }
+
+         document.addEventListener("click", function click()
+         {
+            // console.log("Clicked");
+            // alert("hello");
+            let conf = confirm("Are you sure?");
+            // console.log(conf)
+         })
+
+         let arr = [34, 21, 45]
+
+         for(let i = 0; i < arr.length; i++)
+         {
+            const element = arr[i];
+         }
+
+            //    function myfunc(number)
+            //    {
+            //      console.log("The number is : "+this)
+            //    }
+
+            let mobj = {
+                a:this,
+             myfunc : function (number)
+            {
+              console.log("The number is : "+this)
+            }
+            }
+         
+        
+            mobj.myfunc();
+
+            console.log(mobj.a)
+            setTimeout(() => {
+                 console.log("yayya");
+            }, 3000);
+
+            console.log("I am bottom script")
+
+            
+             
+
+
+    </script>
+
+    I am learning JS
+</body>
+</html>
